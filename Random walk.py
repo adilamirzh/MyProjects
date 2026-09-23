@@ -41,12 +41,12 @@ for i in range(m):
 
 fig, ax1 = plt.subplots()
 
-# Левая ось Y для List2
+# Left axis Y for list2
 ax1.plot(list2, color="blue", label="Random Walk")
 ax1.set_xlabel("n")
 ax1.set_ylabel("walk", color="blue")
 
-# Правая ось Y для list3
+# right axis Y for list3
 ax2 = ax1.twinx()
 ax2.plot(list3, color="red", label="Geometric process")
 ax2.set_ylabel("binomial", color="red")
